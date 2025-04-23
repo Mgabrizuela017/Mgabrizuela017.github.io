@@ -5,26 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa de eventos 2 banderas</title>
 <style>
-body{
-    background-color: black;
+
+html{
+   background: url(Assets/Img/Salon_principal.jpg)no-repeat;
+    background-size: cover;
 }
+
 h1{
     font-size: 1.5em;
-    color: orange;
+    color: rgb(255, 255, 255);
 }
 nav{
-    border: solid 1px #FFF;
+    /*background: url(Assets/Img/Logo.jpg)no-repeat;*/
+    background-size:contain;
+    height: 90px;
+    background-color: white;
+    border: solid 1px mediumpurple;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 700px;
+
+}
+.Menu{
+    list-style: none;
+    display: flex;
+    
+    
+}
+li{
+    margin: auto;
+    
+}
+li a:link{
+ text-decoration: none;
 }
 </style>
 </head>
 <body>
 
 <nav>
-   <li> <a href="Casa_2_banderas_Home.html">Inicio</a></li>
+<ul class="Menu">
+    <a href="Casa_2_banderas_Home.html"><img src="Assets/Img/Logo.jpg" alt="Logo" width="70px" height="70px"></a>
+    <li> <a href="Casa_2_banderas_Home.html">Inicio</a></li>
    <li> <a href="2banderas_Salon.html">Salon</a></li>
    <li> <a href="Servicios_2banderas">Servicios</a></li>
    <li> <a href="Blog_2banderas">Blog</a></li>
-
+</ul>
 </nav>
 <header>
 <h1>Casa de eventos 2 banderas</h1>
