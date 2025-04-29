@@ -7,7 +7,7 @@
 <style>
 
 html{
-  background: url(Assets/Img/mesa_silla_luces.jpg)no-repeat;
+ /* background: url(Assets/Img/mesa_silla_luces.jpg)no-repeat;*/
     background-size:cover;
  
 }
@@ -76,6 +76,33 @@ img{
     box-shadow: 29px 20px 20px rgba(112, 0, 79, 0.5);
     border-radius: 70px;
 }
+ footer {
+        display: flex;
+        justify-content: center; /* Centra los elementos */
+        gap: 20px; /* Espacio entre los elementos */
+        flex-wrap: wrap; /* Permite que se acomoden en varias líneas si la pantalla es pequeña */
+        padding: 3px;
+    }
+
+#Pie_navega2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1px;
+    padding-top: 30px;
+}
+
+#Pie_navega2 a {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Mantiene el color del texto del padre */
+}
+
+a:visited {
+    color: inherit; /* Evita que cambie de color después de ser visitado */
+}
+#Link_github{
+
+    bottom: 2px;
+    left: 25px;
+}
 </style>
 </head>
 <body>
@@ -122,7 +149,21 @@ img{
 
         </div>
 
-<footer>
+
+ <footer id="Pie_navega2">
+            <address>
+                <p>© Copyright Casa de eventos 2 banderas All Rights Reserved</p>
+                <p id="Link_github">
+                    Diseñado por 
+                    <a href="https://github.com/Mgabrizuela017" target="_blank" rel="noopener noreferrer">
+                        Marcos G. Brizuela
+                    </a>
+                </p>
+                <figure>
+                    <img src="Assets/Img/icono_github.gif" alt="Ícono de GitHub">
+                </figure>
+            </address>                
 </footer>    
+
 </body>
 </html>
