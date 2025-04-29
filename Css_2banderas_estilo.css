@@ -1,0 +1,98 @@
+
+html{
+ /* background: url(Assets/Img/mesa_silla_luces.jpg)no-repeat;*/
+    background-size:cover;
+ 
+}
+
+h1{
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+nav{
+    /*background: url(Assets/Img/Logo.jpg)no-repeat;*/
+    background-size:contain;
+    height: 90px;
+    background-color: white;
+    border: solid 2px mediumpurple;
+    box-shadow: 0px 0px 10px rgba(112, 0, 79, 0.5);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    width: 1100px;
+
+}
+.Menu{
+    list-style: none;
+    display: flex;
+    
+    
+}
+li{
+    margin: auto;
+    
+}
+li a:link{
+ text-decoration: none;
+}
+#galeria{
+    padding: 20px 0;
+    border: solid 2px black;
+    width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.452);
+}
+#galeria img{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(112, 0, 79, 0.5);
+
+}
+img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(112, 0, 79, 0.5);
+}
+#Mapa{
+    margin-left: auto;
+/* border: 2px solid black; */
+    width: 1000px;
+    height: 350px;
+    margin-right: 100px;
+
+}
+#map{
+    width: 100%;
+    height: 60%;
+    box-shadow: 29px 20px 20px rgba(112, 0, 79, 0.5);
+    border-radius: 70px;
+}
+ footer {
+        display: flex;
+        justify-content: center; /* Centra los elementos */
+        gap: 20px; /* Espacio entre los elementos */
+        flex-wrap: wrap; /* Permite que se acomoden en varias líneas si la pantalla es pequeña */
+        padding: 3px;
+    }
+
+#Pie_navega2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1px;
+    padding-top: 30px;
+}
+
+#Pie_navega2 a {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Mantiene el color del texto del padre */
+}
+
+a:visited {
+    color: inherit; /* Evita que cambie de color después de ser visitado */
+}
+#Link_github{
+
+    bottom: 2px;
+    left: 25px;
+}
