@@ -1,15 +1,40 @@
+
 html{
- /* background: url(Assets/Img/mesa_silla_luces.jpg)no-repeat;*/
-    
-    background: url(Assets/Img/Carta.png)no-repeat;
+    background: url(Assets/Img/Fondo2.png)no-repeat;
     background-size:cover;
 }
-
+h1{
+    color: black;
+    text-align: center;
+}
 h1{
     font-size: 1.5em;
     color: rgb(255, 255, 255);
 }
+#principal{
+    background-color: mediumorchid;
+    width: 150px;
+}
+.Titulo{
 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(66, 2, 95, 0.527);
+    width: 700px;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*-------------*//*-------------*//*-------------*/
+.Menu{
+    list-style: none;
+    display: flex;
+}
 nav{
     background: url(Assets/Img/Logo.jpg)no-repeat;
     background-size:contain;
@@ -20,68 +45,89 @@ nav{
     border-radius: 10px;
     margin: auto;
     margin-top: 5px;
-    
+    /*-----------*/
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-family: 2em;
     color: black;
     width: 1210px;
-background: linear-gradient(90deg, #4e1680, #9d71f5, #ca8bf7, #530564);
-
+    background: linear-gradient(90deg, #4e1680, #9d71f5, #ca8bf7, #530564);
 }
-/*nav {
-      background: linear-gradient(90deg, #8e2de2, #4a00e0, #6a0dad, #d000ff);
-      padding: 1rem;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      color: white;
-      font-family: Arial, sans-serif;
-      font-size: 1.2rem;
-    }*/
-    nav a {
+nav a {
       color: rgb(0, 0, 0);
       text-decoration: none;
       padding: 20px 30px;
-        
-        font-size: 1.2rem;
+      font-size: 1.2rem;
     }
-    nav a:hover {
+nav a:hover {
       background-color: rgba(255, 255, 255, 0.103);
       border-radius: 5px;
       color: rgb(255, 255, 255);
     }
-
-
-
-
-.Menu{
-    list-style: none;
-    display: flex;
-    
-    
-}
 li{
     margin: auto;
-    ;
-    
 }
 li a:link{
  text-decoration: none;
 }
-
-
 img{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(112, 0, 79, 0.5);
 }
+/*-------------*//*-------------*//*-------------*/
+#galeria {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 20px 0;
+}
+#galeria img{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(112, 0, 79, 0.5);
+}
+#book {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: 350%;
+    height: 550px;
+    animation: carrusel 20s ease-in-out infinite;
+}
+#book img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(112, 0, 79, 0.5);
+}
+@keyframes carrusel {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-20%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    75% {
+        transform: translateX(1%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+/*-------------*//*-------------*//*-------------*/
 #Mapa{
     margin: auto;
-/* border: 2px solid black; */
+  /*border: 2px solid black;*/
     width: 1000px;
     height: 350px;
-   
-
 }
 #map{
     width: 100%;
@@ -89,24 +135,24 @@ img{
     box-shadow: 10px 10px 20px rgba(112, 0, 79, 0.5);
     border-radius: 70px;
 }
+/*-------------*//*-------------*//*-------------*/
  footer {
         display: flex;
         justify-content: center; /* Centra los elementos */
         gap: 20px; /* Espacio entre los elementos */
         flex-wrap: wrap; /* Permite que se acomoden en varias líneas si la pantalla es pequeña */
         padding: 3px;
-
         border-top: 2px solid rgba(0, 0, 0, 0.582); /* Línea superior */
         border-bottom: 2px solid #111010;
     }
 
-#Pie_navega2 p {
+#Pie_del_documento p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 1px;
     padding-top: 30px;
 }
 
-#Pie_navega2 a {
+#Pie_del_documento a {
     text-decoration: none; /* Quita el subrayado */
     color: inherit; /* Mantiene el color del texto del padre */
 }
@@ -114,8 +160,9 @@ img{
 a:visited {
     color: inherit; /* Evita que cambie de color después de ser visitado */
 }
-#Link_github{
-
+#github{
     bottom: 2px;
     left: 25px;
 }
+
+
