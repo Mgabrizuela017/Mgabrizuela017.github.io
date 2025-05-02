@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="Css_2banderas_estilo.css">
 
 <style>
+
 .carta-de-evento {
   max-width: 600px;
   margin: 50px auto;
@@ -38,6 +39,11 @@ button {
     transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
 
+button #nextBtn{
+    position:absolute;
+    left:10px;
+}
+
 button:hover {
     background-color: #000000;
     transform: scale(1.1); /* Pequeña animación al pasar el mouse */
@@ -54,6 +60,12 @@ button img {
 
 #prevBtn img {
     transform: rotate(180deg);
+}
+.navegacion{
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 </style>
@@ -75,11 +87,21 @@ button img {
 </header>
                    
 <div id="galeria">
-  <h2>Book de fotos</h2>
-  <div id="book">
+
+  <!--<h2>Book de fotos</h2>-->
+   
+    
+    
+    <div class="navegacion">
+    <button id="prevBtn"><img src="Assets/Icons/Flecha_izquierda.png" alt="Flecha izquierda"></button> 
+    <button id="nextBtn"><img src="Assets/Icons/Flecha_izquierda.png" alt="Flecha derecha"></button>  
+    </div>
+    <div id="book">
+      
     <img src="Assets/Img/15_LARA (1).png" alt="15-verde_1">
     <img src="Assets/Img/15_LARA (2).png" alt="15-verde_2">
     <img src="Assets/Img/15_LARA (3).png" alt="15-verde_3"> 
+    <img src="Assets/Img/Logo.jpg" alt="15-verde_1">
     <img src="Assets/Img/cartel1.jpg" alt="Cartel_1_C&E">
     <img src="Assets/Img/cartel2.jpg" alt="Cartel_2_Cata">
     <img src="Assets/Img/cartel_luminoso2banderas.jpg" alt="Cartel 3">
@@ -93,7 +115,9 @@ button img {
     <img src="Assets/Img/Mesa_con_sillas_logo_parrilla.jpg" alt="Mesa_sillas_parrilla">
     <img src="Assets/Img/Salon_azul.jpg" alt="Salon_azul_2">
     <img src="Assets/Img/Pasillo_marron_logo.jpg" alt="Pasillo_logo_paredes_ladrillo_vista">
-  </div>
+</div>
+
+
 </div>
 
 <section class="carta-de-evento">
@@ -124,7 +148,7 @@ button img {
                     Marcos G. Brizuela</a>
                 </p>
                 <figure>
-                    <img src="Assets/Img/icono_github.gif" alt="Ícono de GitHub">
+                    <img src="Assets/Icons/icono_github.gif" alt="Ícono de GitHub">
                 </figure>
             </address>                
  </footer>    
