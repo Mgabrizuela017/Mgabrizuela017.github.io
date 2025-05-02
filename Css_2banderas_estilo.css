@@ -1,6 +1,6 @@
 
 html{
-    background: url(Assets/Icons/Fondo2.png)no-repeat;
+    background: url(Assets/Icons/Brown\ Black\ Vintage\ Aesthetic\ Thank\ You\ Letter\ A4\ Document.png);
     background-size:cover;
 }
 h1 {
@@ -40,7 +40,6 @@ nav{
     linear-gradient(90deg, #4e1680, #9d71f5, #ca8bf7, #530564),
     url(Assets/Img/Logo.jpg) no-repeat;
     background-size: cover, contain;
-
 
     width: 100%;
     height: 110px;
