@@ -25,6 +25,7 @@ body {
     border-radius: 20px;
     padding: 20px;
     margin: 30px auto;
+    bottom: 20px; 
     width: 80%;
     text-align: center;
 }
@@ -34,7 +35,9 @@ body {
     display: flex;
 }
 nav {
-    background: linear-gradient(90deg, #7B2CBF, #D4B5F9);
+
+    width: 100%;
+    background: linear-gradient(90deg,#7B2CBF , #7B2CBF, #7B2CBF, #7B2CBF);
     color: white;
     font-family: 'Roboto', sans-serif;
     border: none;
@@ -44,26 +47,45 @@ nav {
 
 nav a {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     transition: all 0.3s ease;
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #cf7df5;
     color: #FDF9FF;
+    border-radius: 4px;
+}
+li{
+    margin: auto;
+}
+li a:link{
+ text-decoration: none;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(112, 0, 79, 0.5);
 }
 
+.seccion-1{
+    display: flex;
+    justify-content:flex-end;
+}
 .carta-de-evento {
+    
+    
+
     background: #EDE4F7;
     color: #2D1E40;
     border: 2px solid #D4B5F9;
     box-shadow: 0 4px 12px rgba(123, 44, 191, 0.1);
     font-family: 'Roboto', sans-serif;
 
- max-width: 600px;
-  margin: 50px auto;
-  padding: 30px 40px;
-  font-size: 1.2rem;
+    max-width: 600px;
+    margin: 50px auto;
+    margin-left: 40px;
+    padding: 30px 40px;
+    font-size: 1.2rem;
 }
 /*.carta-de-evento {
   max-width: 600px;
@@ -80,15 +102,53 @@ nav a:hover {
 }*/
 
 
-li{
-    margin: auto;
+
+/*-------------*//*-------------*//*-------------*/
+
+
+.navegacion{
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
-li a:link{
- text-decoration: none;
+
+button {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%; /* Hace los botones completamente redondos */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
-img{
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(112, 0, 79, 0.5);
+
+button #nextBtn{
+    position:absolute;
+    left:10px;
+}
+
+button:hover {
+    background-color: #000000;
+    transform: scale(1.1); /* Pequeña animación al pasar el mouse */
+}
+
+button img {
+    width: 30px;
+    height: 30px;
+}
+
+#nextBtn img {
+    transform: rotate(0deg); /* Corrige la rotación de la flecha */
+}
+
+#prevBtn img {
+    transform: rotate(180deg);
 }
 /*-------------*//*-------------*//*-------------*/
 #galeria {
