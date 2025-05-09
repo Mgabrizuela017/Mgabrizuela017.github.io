@@ -352,6 +352,15 @@ footer {
   height: 24px;
 }
 
+.footer-section-contact img:hover{
+    background-color: rgba(32, 238, 32, 0.75);
+    
+}
+.footer-section-contact a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
 .footer-bottom {
   text-align: center;
   margin-top: 30px;
