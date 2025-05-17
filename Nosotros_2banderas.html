@@ -7,12 +7,69 @@
 
 <link rel="stylesheet" href="Css_2banderas_estilo.css">
 
-
 <style>
+html{
+    margin: auto 0;
+}
+.columna_salon p{
+  font-size: 1.5rem;
+  color: #555;
+  line-height: 1.5;
+}
+.columna_salon li{
+  font-weight: bold;
+}
+.seccion-cartas_salon {
+  background: #f8f8f8; /* Color suave como en la captura */
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fila-cartas_salon {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.columna_salon {
+  flex: 1;
+  max-width: 1300px;
+  
+}
+.contenedor-img{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.columna_salon{
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.5;
+}
+
+h1{
+font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.video{
+    margin: auto;
+    width: max-content;
+    background-color: black;
+    height: 650px;
+}
 </style>
 </head>
 <body>
-  
 
 <nav>
   <a href="Salon_2_banderas_Home.html"><img src="Assets/Img/Logo.jpg" alt="Logo" width="70px" height="70px"></a>
@@ -34,89 +91,38 @@
   <a href="https://wa.me/54 9 1150259972" target="_blank">
 <img src="Assets/Icons/whatsapp_comic.png" class="whatsapp" alt="WhatsApp" width="80px" height="80px"></a>
 </div>
+ 
 
 
-<!--<section class="seccion-1"> 
-
-<section>
-<div class="video">
+    <section class="seccion-cartas_salon">
+  <div class="fila-cartas_salon">
+    <div class="columna_salon">
+        <img src="Assets/Img/Logo.jpg" width="max-content" height="max-content" style="margin: auto; box-shadow:black 12px 12px 10px none;" >
+      <h1>Nosotros</h1>
+      <p>En Las Dos Banderas, creemos que cada evento merece ser inolvidable. Por eso, nos dedicamos con pasión y profesionalismo a crear experiencias únicas, cuidando cada detalle desde el primer contacto hasta el último minuto de tu celebración.</p>
+     <p>Nuestro compromiso es ofrecer un servicio integral, con todo lo necesario en un solo lugar: un espacio moderno y confortable, ambientación a medida, catering de excelencia, coordinación personalizada y un equipo humano atento, cálido y profesional. Siempre trabajamos en equipo.</p>
+     <p>Contamos con todos los servicios que se pueden ofrecer en un evento para tu tranquilidad, todo en un solo lugar y no es necesario estar pendiente de proveedores externos.</p>
+    <p>Disponemos de personal capacitado en manipulación de alimentos, DJs reconocidos, un organizador que está en cada detalle durante el evento, animador que hace más dinámica la fiesta, y personal de limpieza antes, durante y después del evento. ¡Y mucho más!</p>
+    <p>Trabajamos con responsabilidad, creatividad y amor por lo que hacemos, porque entendemos que detrás de cada evento hay emociones, sueños y momentos que merecen vivirse al máximo. Nos encanta acompañarlos en cada paso y convertir sus ideas en realidades memorables.</p>
+    <p>Entendemos que los detalles marcan la diferencia, por eso los acompañamos para hacer realidad su fiesta soñada.</p>
+   
+</div>
+ <div class="contenedor-img">
+  
+    <img src="Assets/Img/Exterior4.png" width="1100px" height="600px">    
+    <img src="Assets/Img/Exterior5.png" width="1100px" height="600px">
+    <img src="Assets/Img/exterior6.png" width="1100px" height="600px">        
+  </div>
+<!--<div class="video">
     <video autoplay muted loop id="video-background">
-        <source src="Assets/Img/video_con_logo.mp4" id="play" type="video/mp4">
+        <source src="Assets/Img/Novios_casados.mp4" id="play" type="video/mp4">
         Tu navegador no soporta el video.
     </video>
-</section>-->
+</div>-->
 
-
-<section class="seccion-cartas">
-  <div class="fila-cartas">
-    <div class="columna">
-      <h3>Todo lo que necesitás</h3>
-      <p>Realizamos eventos placenteros desde el inicio de la contratación hasta su puesta en marcha. Generamos momentos y acompañamos a los clientes en cada detalle.</p>
-    </div>
-    <div class="columna">
-      <h3>El Salón</h3>
-      <p>Salón de arquitectura moderna, rodeado por un parque diseñado por paisajistas. Colores de la naturaleza y espacios para ambientaciones únicas.</p>
-    </div>
-    <div class="columna">
-      <h3>All inclusive Premium</h3>
-      <p>Nos ocupamos de todo. Excelencia y calidad en eventos sociales y corporativos.</p>
-    </div>
-  </div>
 </section>
 
-
-
-<div id="galeria">
-
-  <!--<h2>Book de fotos</h2>-->
-   
-    
-    
-    <div class="navegacion">
-    <button id="nextBtn"><img src="Assets/Icons/Flecha_izquierda.png" alt="Flecha derecha"></button>     
-    <button id="prevBtn"><img src="Assets/Icons/Flecha_izquierda.png" alt="Flecha izquierda"></button>    
-    </div>
-    <div id="book">
-      
-    <img src="Assets/Img/15_LARA (1).png" alt="15-verde_1">
-    <img src="Assets/Img/15_LARA (2).png" alt="15-verde_2">
-    <img src="Assets/Img/15_LARA (3).png" alt="15-verde_3"> 
-    <img src="Assets/Img/Logo.jpg" alt="15-verde_1">
-    <img src="Assets/Img/cartel1.jpg" alt="Cartel_1_C&E">
-    <img src="Assets/Img/cartel2.jpg" alt="Cartel_2_Cata">
-    <img src="Assets/Img/cartel_luminoso2banderas.jpg" alt="Cartel 3">
-    <img src="Assets/Img/Salon_luces_marrones.jpg" alt="Cartel 4">
-    <img src="Assets/Img/mesa_silla_luces.jpg" alt="Mesa_sillas_luces">
-    <img src="Assets/Img/Barra.jpg" alt="Barra_limpia">
-    <img src="Assets/Img/bebidas_todas.jpg" alt="Barra_bebidas_alcholicas">
-    <img src="Assets/Img/Salon_principal.jpg" alt="Salon_principal_proyector_azul">
-    <img src="Assets/Img/Recepcion.jpg" alt="Recepcion_Principal">
-    <img src="Assets/Img/Bebidas_barra.png" alt="Barra_con_bebidas_alcholicas_2">
-    <img src="Assets/Img/Mesa_con_sillas_logo_parrilla.jpg" alt="Mesa_sillas_parrilla">
-    <img src="Assets/Img/Salon_azul.jpg" alt="Salon_azul_2">
-    <img src="Assets/Img/Pasillo_marron_logo.jpg" alt="Pasillo_logo_paredes_ladrillo_vista">
-</div>
-
-
-</div>
-
-    
-    <div id="Mapa">
-        <h3>Ubicación</h3>    
-            <iframe id="map"
-                title="Ubicación de Casa de eventos 2 banderas"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8985.365467527992!2d-58.863212640831904!3d-34.62795361714836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc910d4fc31883%3A0x7a590e5b21591233!2sQuinta%20las%20dos%20banderas!5e0!3m2!1ses-419!2sar!4v1745891667150!5m2!1ses-419!2sar" width="1000" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                <p>Estamos ubicados en: El Arreo 2141, B1746 Francisco Alvarez, Provincia de Buenos Aires, Argentina.</p>
-            </iframe>
-    </div>
-
-<!-- Elfsight Google Reviews | Untitled Google Reviews -->
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
-<div class="elfsight-app-b0151c7b-d4fd-47d9-ae55-84cb23bb9756" data-elfsight-app-lazy><h2>Lo que dicen nuestros clientes</h2></div>
-
-
-
-    <footer>
+<footer class="Flota_float">
   <div class="footer-container">
     <div class="footer-section about">
       <h2>SALON DE EVENTOS<span>LAS 2 BANDERAS</span></h2>
@@ -143,8 +149,7 @@
       Provincia de Buenos Aires.</p>
        <a href="https://wa.me/54 9 1150259972" target="_blank"><p><img src="Assets/Icons/whatsapp_Transparente.png" width="20px" style="box-shadow: 0 0 10px white;"> +54 9 11 2638-6864</p></a>
       <a href="https://wa.me/54 9 1150259972" target="_blank"> <p> <img src="Assets/Icons/whatsapp_Transparente.png" width="20px" style="box-shadow: 0 0 10px white;">+54 9 11 5025-9972 </p></a>
-      <p>✉️ dosbanderaseventos@gmail.com</p>    
-    <!--<p>✉️ eventos@2Banderas.com.ar</p>--> 
+      <p>✉️ eventos@2Banderas.com.ar</p>
     </div>
 
     <div class="footer-section social">
@@ -168,6 +173,7 @@
                 </figure>
   </div>
 </footer>
+
 
 </body>
 </html>

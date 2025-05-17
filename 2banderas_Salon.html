@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salon de eventos 2 banderas</title>
+    <title>Salon de eventos las 2 banderas</title>
 
 <link rel="stylesheet" href="Css_2banderas_estilo.css">
 
 
 <style>
 
-.columna_salon p {
-  font-size: 1rem;
+.columna_salon p{
+  font-size: 1.5rem;
   color: #555;
   line-height: 1.5;
 }
-
+.columna_salon li{
+  font-weight: bold;
+}
 .seccion-cartas_salon {
   background: #f8f8f8; /* Color suave como en la captura */
   padding: 60px 20px;
@@ -38,49 +40,81 @@
   
 }
 
-.columna_salon  {
+.columna_salon{
   font-size: 1.3rem;
   color: #333;
   margin-bottom: 10px;
-}
-h1{
-font-size: 1.7rem;
-  color: #333;
-  margin-bottom: 10px;
-}
-.columna_salon p {
-  font-size: 1rem;
   color: #555;
   line-height: 1.5;
 }
-/*----------*//*----------*//*----------*/
-.galeria-salon {
-  padding: 40px;
-  background-color: #f9f9f9;
-  text-align: center;
-    
+
+h1{
+font-size: 2.rem;
+  color: #333;
+  margin-bottom: 10px;
 }
 
+/*----------*//*----------*//*----------*/
+/* Corrección de la sección del salón */
+.seccion-cartas_salon {
+  background: #f8f8f8;
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.fila-cartas_salon {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.columna_salon {
+  font-size: 1.3rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Encabezado */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* --- Galería --- */
+.galeria-salon {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.galeria-salon h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+/* Grid arreglado */
 .grid-galeria {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 186px;
-  margin-top: 20px;
-    margin-bottom: 120px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto 80px auto;
+  justify-items: center;
 }
 
 .grid-galeria img {
-  width: 150%;
-  height: 150%;
-  border-radius: none;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
+  border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
-    margin: 0 auto;
+  transition: transform 0.3s ease;
 }
 
 .grid-galeria img:hover {
-  transform: scale(1.1);
+  transform: scale(2.05);
 }
 
 </style>
@@ -89,7 +123,7 @@ font-size: 1.7rem;
   
 
 <nav>
-  <a href="Casa_2_banderas_Home.html"><img src="Assets/Img/Logo.jpg" alt="Logo" width="70px" height="70px"></a>
+  <a href="Salon_2_banderas_Home.html"><img src="Assets/Img/Logo.jpg" alt="Logo" width="70px" height="70px"></a>
 <ul class="Menu">
      <li> <a href="Salon_2_banderas_Home.html">Inicio</a></li>
      <li> <a href="Nosotros_2banderas.html">Nosotros</a></li>
@@ -100,7 +134,7 @@ font-size: 1.7rem;
 </nav>
 
 <header>
-<h1 class="Titulo">Salon de eventos 2 banderas</h1>
+<h1 class="Titulo">Salon de eventos las 2 banderas</h1>
 </header>
 
 
@@ -113,33 +147,65 @@ font-size: 1.7rem;
 <section class="seccion-cartas_salon">
   <div class="fila-cartas_salon">
     <div class="columna_salon">
-      <h1>Nuestro Salon</h1>
-      <p>En Las Dos Banderas, creemos que cada evento merece ser inolvidable. Por eso, nos dedicamos con pasión y profesionalismo a crear experiencias únicas, cuidando cada detalle desde el primer contacto hasta el último minuto de tu celebración.</p>
-     <p>Nuestro compromiso es ofrecer un servicio integral, con todo lo necesario en un solo lugar: un espacio moderno y confortable, ambientación a medida, catering de excelencia, coordinación personalizada y un equipo humano atento, cálido y profesional. Siempre trabajamos en equipo.</p>
-     <p>Contamos con todos los servicios que se pueden ofrecer en un evento para tu tranquilidad, ya que lo tenés todo en un solo lugar y no es necesario estar pendiente de proveedores externos.</p>
-    <p>Disponemos de personal capacitado en manipulación de alimentos, DJs reconocidos, un organizador que está en cada detalle durante el evento, animador que hace más dinámica la fiesta, y personal de limpieza antes, durante y después del evento. ¡Y mucho más!</p>
-    <p>Trabajamos con responsabilidad, creatividad y amor por lo que hacemos, porque entendemos que detrás de cada evento hay emociones, sueños y momentos que merecen vivirse al máximo. Nos encanta acompañarlos en cada paso y convertir sus ideas en realidades memorables.</p>
-    <p>Entendemos que los detalles marcan la diferencia, por eso los acompañamos para hacer realidad su fiesta soñada.</p>
-    
+<h1>Nuestro Salón</h1>
+<p>Bienvenidos a <strong>Salon de Eventos las 2 Banderas</strong>, un espacio pensado para hacer de tu celebración una experiencia única. Nuestro salón combina elegancia, comodidad y un entorno versátil que se adapta a todo tipo de eventos: cumpleaños, casamientos, egresos, bautismos, fiestas infantiles y empresariales.</p>
+<p>Ubicado en una zona accesible y tranquila, las 2 banderas ofrece un ambiente cálido con una estética moderna y detalles cuidadosamente seleccionados. Contamos con <strong>dos banderas iluminadas en el ingreso</strong>, un detalle distintivo que marca el comienzo de una noche especial desde la llegada de tus invitados.</p>
+
+<p>En el interior, nuestros espacios se destacan por su <strong>iluminación escénica en tonos blancos, marrones o azules y de cualquier gama de colores personalizable.</strong>, que crean una atmósfera acogedora y sofisticada. La decoración es completamente personalizable, con opciones que van desde estilos clásicos hasta temáticas modernas, siempre con el apoyo de nuestro equipo para que todo sea como lo soñaste.</p>
+
+<h1>¿Qué ofrecemos?</h1>
+<p>El salón incluye:</p>
+<ul>
+  <li>Área principal con capacidad para grandes grupos.</li>
+  <li>Espacios decorativos versátiles.</li>
+  <li>Ambientación con luces cálidas y detalles únicos.</li>
+  <li>Zona exterior para recepción o momentos al aire libre.</li>
+  <li>Excelente acústica e iluminación.</li>
+</ul>
+
+<p>En <strong>Salon de Eventos las 2 Banderas</strong>, cada detalle está pensado para que vos y tus invitados vivan un momento inolvidable. Nos encargamos de acompañarte en cada paso de la organización, para que disfrutes sin preocuparte por nada.</p>
+</div>
   </div>
 </section>
 
+
+
 <section class="galeria-salon">
-  <h2>Galería de Nuestro Salón</h2>
-  <div class="grid-galeria">
+  <h2><strong>Galeria de nuestro Salón</strong></h2>
+    <div class="grid-galeria">
+    <img src="Assets/Img/Salon_azul3.jpg" alt="Boda en jardín">
+    <img src="Assets/Img/Salon_azul4.jpg" alt="Boda en jardín">
+    <img src="Assets/Img/Salon_azul5.jpg" alt="Boda en jardín">
+    <img src="Assets/Img/Salon_azul6.jpg" alt="Boda en jardín">
     <img src="Assets/Img/Salon_principal.jpg" alt="Boda en jardín">
-    <img src="Assets/Img/Salon_luces_marrones.jpg" alt="Pareja caminando">
     <img src="Assets/Img/Salon_azul.jpg" alt="Intercambio de anillos">
+    <img src="Assets/Img/cartel2.jpg" alt="Invitado llegando">
+    <img src="Assets/Img/cartel1.jpg" alt="Invitado llegando">   
     <img src="Assets/Img/Recepcion.jpg" alt="Novia con su padre">
     <img src="Assets/Img/bebidas_todas.jpg" alt="Invitado llegando">
-     <img src="Assets/Img/Barra.jpg" alt="Invitado llegando">
-     <img src="Assets/Img/cartel1.jpg" alt="Invitado llegando">
-     <img src="Assets/Img/cartel2.jpg" alt="Invitado llegando">
-     <img src="Assets/Img/cartel_luminoso2banderas.jpg" alt="Invitado llegando">
+    <img src="Assets/Img/Barra.jpg" alt="Invitado llegando">
+    <img src="Assets/Img/cartel_luminoso2banderas.jpg" alt="Invitado llegando"> 
+    <img src="Assets/Img/Salon_luces_marrones.jpg" alt="Pareja caminando">
+    <img src="Assets/Img/Pasillo_marron_logo.jpg" alt="Pareja caminando">
     <img src="Assets/Img/15_LARA (1).png" alt="Invitado llegando">
+    <img src="Assets/Img/15_LARA (5).png" alt="Invitado llegando">
     <img src="Assets/Img/15_LARA (2).png" alt="Invitado llegando">
     <img src="Assets/Img/15_LARA (3).png" alt="Invitado llegando">
-    <!-- Agregá más imágenes -->
+    <img src="Assets/Img/15_LARA (4).png" alt="Invitado llegando">
+    
+    <img src="Assets/Img/Lets_party.png" alt="Cartel_letsparty">
+    <img src="Assets/Img/blanca_casamiento.png" alt="Salon exterior1">
+    <img src="Assets/Img/Happy_britday.png" alt="Felizcumpleaños">
+    <img src="Assets/Img/Decoracion_blanca.png" alt="Decoracion_blanca">
+    <img src="Assets/Img/Salon_violeta2.png" alt="Salon_violeta2">
+    <img src="Assets/Img/Salon_violeta.png" alt="">
+    <img src="Assets/Img/SalonIV.png" alt="">
+    
+    <img src="Assets/Img/Salon_completo2.png" alt="">
+    <img src="Assets/Img/Salon_completo.png" alt="">
+    <img src="Assets/Img/DercoracionIII.PNG" alt="DercoracionIII">
+
+<!-- Agregá más imágenes -->
   </div>
 </section>
 
@@ -147,7 +213,7 @@ font-size: 1.7rem;
  <footer class="Flota_float">
   <div class="footer-container">
     <div class="footer-section about">
-      <h2>SALON DE EVENTOS<span> 2 BANDERAS</span></h2>
+      <h2>SALON DE EVENTOS<span> LAS 2 BANDERAS</span></h2>
       <p>
        En 2 Banderas estamos atentos a cada detalle con el compromiso de que tu evento sea verdaderamente inolvidable. Ofrecemos todos los servicios necesarios para que no tengas que preocuparte por nada, cuidando que cada uno cumpla con los más altos estándares de calidad. Celebrar en 2 Banderas es elegir una experiencia única, personalizada y pensada para superar tus expectativas.
       </p>
@@ -156,7 +222,7 @@ font-size: 1.7rem;
     <div class="footer-section links">
       <h3>Links</h3>
       <ul>
-        <li><a href="Salon_2_banderas_Home.html">Salon de eventos 2 banderas</a></li>
+        <li><a href="Salon_2_banderas_Home.html">Salon de eventos las 2 banderas</a></li>
         <li><a href="#">Servicios</a></li>
         <li><a href="2banderas_Salon.html">Salon</a></li>
         <li><a href="#">Contacto</a></li>
