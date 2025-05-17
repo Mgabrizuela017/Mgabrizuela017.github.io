@@ -35,76 +35,7 @@
 <img src="Assets/Icons/whatsapp_comic.png" class="whatsapp" alt="WhatsApp" width="80px" height="80px"></a>
 </div>
 
-<section class="seccion-cartas">
-  <div class="fila-cartas">
-    <div class="columna">
-      <h3>Todo lo que necesitás</h3>
-      <p>Realizamos eventos placenteros desde el inicio de la contratación hasta su puesta en marcha. Generamos momentos y acompañamos a los clientes en cada detalle.</p>
-    </div>
-    <div class="columna">
-      <h3>El Salón</h3>
-      <p>Salón de arquitectura moderna, rodeado por un parque diseñado por paisajistas. Colores de la naturaleza y espacios para ambientaciones únicas.</p>
-    </div>
-    <div class="columna">
-      <h3>All inclusive Premium</h3>
-      <p>Nos ocupamos de todo. Excelencia y calidad en eventos sociales y corporativos.</p>
-    </div>
-  </div>
-</section>
-
-
-
-<div id="galeria">
-
-  <!--<h2>Book de fotos</h2>-->
-   
-    
-    
-    <div class="navegacion">
-    <button id="nextBtn"><img src="Assets/Icons/Flecha_izquierda.png" alt="Flecha derecha"></button>     
-    <button id="prevBtn"><img src="Assets/Icons/Flecha_izquierda.png" alt="Flecha izquierda"></button>    
-    </div>
-    <div id="book">
-      
-    <img src="Assets/Img/15_LARA (1).png" alt="15-verde_1">
-    <img src="Assets/Img/15_LARA (2).png" alt="15-verde_2">
-    <img src="Assets/Img/15_LARA (3).png" alt="15-verde_3"> 
-    <img src="Assets/Img/Logo.jpg" alt="15-verde_1">
-    <img src="Assets/Img/cartel1.jpg" alt="Cartel_1_C&E">
-    <img src="Assets/Img/cartel2.jpg" alt="Cartel_2_Cata">
-    <img src="Assets/Img/cartel_luminoso2banderas.jpg" alt="Cartel 3">
-    <img src="Assets/Img/Salon_luces_marrones.jpg" alt="Cartel 4">
-    <img src="Assets/Img/mesa_silla_luces.jpg" alt="Mesa_sillas_luces">
-    <img src="Assets/Img/Barra.jpg" alt="Barra_limpia">
-    <img src="Assets/Img/bebidas_todas.jpg" alt="Barra_bebidas_alcholicas">
-    <img src="Assets/Img/Salon_principal.jpg" alt="Salon_principal_proyector_azul">
-    <img src="Assets/Img/Recepcion.jpg" alt="Recepcion_Principal">
-    <img src="Assets/Img/Bebidas_barra.png" alt="Barra_con_bebidas_alcholicas_2">
-    <img src="Assets/Img/Mesa_con_sillas_logo_parrilla.jpg" alt="Mesa_sillas_parrilla">
-    <img src="Assets/Img/Salon_azul.jpg" alt="Salon_azul_2">
-    <img src="Assets/Img/Pasillo_marron_logo.jpg" alt="Pasillo_logo_paredes_ladrillo_vista">
-</div>
-
-
-</div>
-
-    
-    <div id="Mapa">
-        <h3>Ubicación</h3>    
-            <iframe id="map"
-                title="Ubicación de Casa de eventos 2 banderas"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8985.365467527992!2d-58.863212640831904!3d-34.62795361714836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc910d4fc31883%3A0x7a590e5b21591233!2sQuinta%20las%20dos%20banderas!5e0!3m2!1ses-419!2sar!4v1745891667150!5m2!1ses-419!2sar" width="1000" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                <p>Estamos ubicados en: El Arreo 2141, B1746 Francisco Alvarez, Provincia de Buenos Aires, Argentina.</p>
-            </iframe>
-    </div>
-
-<!-- Elfsight Google Reviews | Untitled Google Reviews -->
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
-<div class="elfsight-app-b0151c7b-d4fd-47d9-ae55-84cb23bb9756" data-elfsight-app-lazy><h2>Lo que dicen nuestros clientes</h2></div>
-
-
-
-    <footer>
+<footer>
   <div class="footer-container">
     <div class="footer-section about">
       <h2>SALON DE EVENTOS<span>LAS 2 BANDERAS</span></h2>
