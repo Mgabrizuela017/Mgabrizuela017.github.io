@@ -7,9 +7,102 @@
 
 <link rel="stylesheet" href="Css_2banderas_estilo.css">
 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 <style>
+
+
+ .columna_salon p{
+  font-size: 1.5rem;
+  color: #000000;
+  line-height: 1.5;
+}
+.columna_salon li{
+  font-weight: bold;
+}
+.seccion-cartas_salon {
+  background: #f8f8f8; /* Color suave como en la captura */
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fila-cartas_salon {
+  display: block;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.columna_salon {
+  flex: 1;
+  max-width: 1300px;
+  
+}
+
+.columna_salon{
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+h1{
+font-size: 2rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+    .container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: auto 0;
+    width: 100%;
+    }
+
+    .info, .formulario {
+      background-color: #f9f9f9;
+      padding: 20px;
+      box-shadow: 0 0 10px #ccc;
+      width: 100%;
+    }
+    .formulario input, .formulario select, .formulario textarea {
+      width: 90%;
+      padding: 8px;
+      margin-bottom: 15px;
+        background-color: rgba(206, 106, 252, 0.653);
+    }
+    .formulario label {
+      font-weight: bold;
+    }
+.formulario button {
+  background: linear-gradient(135deg, #1a1a1a, #333333);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario button:hover {
+  background: linear-gradient(135deg, #000000, #444444);
+  color: #ff0000;
+  transform: scale(1.03);
+}
+
+
+
 </style>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   
@@ -35,60 +128,78 @@
 <img src="Assets/Icons/whatsapp_comic.png" class="whatsapp" alt="WhatsApp" width="80px" height="80px"></a>
 </div>
 
-<section class="seccion-cartas">
-  <div class="fila-cartas">
-    <div class="columna">
-      <h3>Todo lo que necesitás</h3>
-      <p>Realizamos eventos placenteros desde el inicio de la contratación hasta su puesta en marcha. Generamos momentos y acompañamos a los clientes en cada detalle.</p>
-    </div>
-    <div class="columna">
-      <h3>El Salón</h3>
-      <p>Salón de arquitectura moderna, rodeado por un parque diseñado por paisajistas. Colores de la naturaleza y espacios para ambientaciones únicas.</p>
-    </div>
-    <div class="columna">
-      <h3>All inclusive Premium</h3>
-      <p>Nos ocupamos de todo. Excelencia y calidad en eventos sociales y corporativos.</p>
+<section class="seccion-servicios">
+ <div class="fila-cartas_salon">
+    <div class="columna_salon">
+<h1>Tu Empresa de Eventos a disposición</h1>
+
+
+<div class="container">
+  <!-- Información de contacto -->
+  <div class="info">
+    <p>Gracias por visitarnos. Por consultas y/o sugerencias, no dudes en dejarnos tu mensaje.</p>
+    <h2>Salon</h2>
+   <p><strong>Salón Central</strong><br>El Arreo 2141<br>
+B1746 Francisco Alvarez, Provincia de Buenos Aires.</p>
+
+
+    <p><strong>Email:</strong> eventos@tueventos.com.ar<br>
+    <strong>Teléfono:</strong> +54 9 1150259972<br>
+    <strong>Teléfono:</strong> +54 9 1150259972</p>
+
+    <div class="redes">
+      <p>Seguinos en nuestras redes:</p>
+      <a href="https://www.facebook.com/quintalasdosbanderas/"><img src="Assets/Icons/facebook_gris.png" width="30px" style="box-shadow: none;"></a>
+      <a href="https://www.instagram.com/lasdosbanderas_eventos?utm_source=qr&igsh=eHkzZnUzbWlkeDZm"><img src="Assets/Icons/Instragam_gris.png" width="30px" style="box-shadow: none;"></a>
+      <a href="https://www.tiktok.com/@quintalasdosbandera?_t=ZM-8w5ULuH1KVT&_r=1"><img src="Assets/Icons/tiktok_gris.png" width="30px" style="box-shadow: none;"></a>
     </div>
   </div>
+
+  <!-- Formulario -->
+  <div class="formulario">
+    <form>
+      <label for="interes">Tengo interés en *</label>
+      <select id="interes" required>
+        <option value="">Seleccione</option>
+        <option value="cumpleaños">Cumpleaños</option>
+        <option value="casamiento">Casamiento</option>
+        <option value="corporativo">Evento corporativo</option>
+      </select>
+
+      <label for="nombre">Nombre *</label>
+      <input type="text" id="nombre" required>
+
+      <label for="apellido">Apellido *</label>
+      <input type="text" id="apellido" required>
+
+      <label for="email">Email *</label>
+      <input type="email" id="email" required>
+
+      <label for="telefono">Teléfono *</label>
+      <input type="tel" id="telefono" required>
+
+      <label for="provincia">Provincia *</label>
+      <select id="provincia" required>
+        <option value="">Seleccione</option>
+        <option value="buenosaires">Buenos Aires</option>
+        <option value="Caba">Caba</option>
+     
+      </select>
+
+      <label for="localidad">Localidad *</label>
+      <input type="text" id="localidad" required>
+
+      <label for="mensaje">Mensaje *</label>
+      <textarea id="mensaje" rows="5" required></textarea>
+
+      <button type="submit">ENVIAR</button>
+    </form>
+  </div>
+  </div>
+</div>
+</div>
 </section>
-
-
-
-<div id="galeria">
-
-  <!--<h2>Book de fotos</h2>-->
-   
-    
-    
-    <div class="navegacion">
-    <button id="nextBtn"><img src="Assets/Icons/Flecha_izquierda.png" alt="Flecha derecha"></button>     
-    <button id="prevBtn"><img src="Assets/Icons/Flecha_izquierda.png" alt="Flecha izquierda"></button>    
-    </div>
-    <div id="book">
-      
-    <img src="Assets/Img/15_LARA (1).png" alt="15-verde_1">
-    <img src="Assets/Img/15_LARA (2).png" alt="15-verde_2">
-    <img src="Assets/Img/15_LARA (3).png" alt="15-verde_3"> 
-    <img src="Assets/Img/Logo.jpg" alt="15-verde_1">
-    <img src="Assets/Img/cartel1.jpg" alt="Cartel_1_C&E">
-    <img src="Assets/Img/cartel2.jpg" alt="Cartel_2_Cata">
-    <img src="Assets/Img/cartel_luminoso2banderas.jpg" alt="Cartel 3">
-    <img src="Assets/Img/Salon_luces_marrones.jpg" alt="Cartel 4">
-    <img src="Assets/Img/mesa_silla_luces.jpg" alt="Mesa_sillas_luces">
-    <img src="Assets/Img/Barra.jpg" alt="Barra_limpia">
-    <img src="Assets/Img/bebidas_todas.jpg" alt="Barra_bebidas_alcholicas">
-    <img src="Assets/Img/Salon_principal.jpg" alt="Salon_principal_proyector_azul">
-    <img src="Assets/Img/Recepcion.jpg" alt="Recepcion_Principal">
-    <img src="Assets/Img/Bebidas_barra.png" alt="Barra_con_bebidas_alcholicas_2">
-    <img src="Assets/Img/Mesa_con_sillas_logo_parrilla.jpg" alt="Mesa_sillas_parrilla">
-    <img src="Assets/Img/Salon_azul.jpg" alt="Salon_azul_2">
-    <img src="Assets/Img/Pasillo_marron_logo.jpg" alt="Pasillo_logo_paredes_ladrillo_vista">
-</div>
-
-
-</div>
-
-    
+ 
     <div id="Mapa">
         <h3>Ubicación</h3>    
             <iframe id="map"
@@ -97,12 +208,6 @@
                 <p>Estamos ubicados en: El Arreo 2141, B1746 Francisco Alvarez, Provincia de Buenos Aires, Argentina.</p>
             </iframe>
     </div>
-
-<!-- Elfsight Google Reviews | Untitled Google Reviews -->
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
-<div class="elfsight-app-b0151c7b-d4fd-47d9-ae55-84cb23bb9756" data-elfsight-app-lazy><h2>Lo que dicen nuestros clientes</h2></div>
-
-
 
     <footer>
   <div class="footer-container">
