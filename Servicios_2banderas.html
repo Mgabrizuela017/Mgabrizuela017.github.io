@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salon de eventos las 2 banderas</title>
 
-    <link rel="stylesheet" href="Css_2banderas_estilo.css">
-
+    <link rel="stylesheet" href="Css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 <style>
 
@@ -83,8 +83,48 @@ font-size: 2.rem;
   .contenedor-img-comida{
       margin-top: 20px;
 }
+
+.seccion-servicios img{
+    margin-bottom: 25px;
+}
+
+
   
 </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+      
+        $(document).ready(function () {
+            var foto_nueva=new Image();
+            foto_nueva.src="Assets/img/Bebidas_barra.png";
+            $("#Bebidas_barra2").hover(function () {
+                $(this).attr("src","Assets/img/bebidas_todas.jpg"); 
+            },function () {
+                $(this).attr("src", foto_nueva.src)  
+            });
+
+         var foto_nueva2=new Image();
+            foto_nueva2.src="Assets/img/Salon_azul6.jpg";
+            $("#Salon").hover(function () {
+                $(this).attr("src","Assets/img/Salon_azul5.jpg"); 
+            },function () {
+                $(this).attr("src", foto_nueva2.src)  
+            });
+            
+
+
+  
+           var foto_nueva4=new Image();
+            foto_nueva4.src="Assets/img/Salon_azul.jpg";
+            $("#Salon2").hover(function () {
+                $(this).attr("src","Assets/img/15_LARA (5).png"); 
+            },function () {
+                $(this).attr("src", foto_nueva4.src)  
+            });
+        });//Termina ready
+
+        
+  </script>
 </head>
 <body>
   
@@ -175,7 +215,7 @@ parque con bancos.</p>
 <li>Show de robots</li>
 </ul>
 
-  <img src="Assets/Img/Bebidas_barra.png" alt="">
+  <img id="Bebidas_barra2" src="Assets/Img/Bebidas_barra.png" alt="">
 </div>
 <div class="contenedor-service-sonido-y-tecnica">
 <h1>Sonido y tecnica</h1>
@@ -197,7 +237,7 @@ en el salón y una exterior en el parque.</li>
 <li>Microofonos inalámbricos</li>
 </ul>
 
-  <img src="Assets/Img/Salon_azul6.jpg" width="1200px">
+  <img id="Salon" src="Assets/Img/Salon_azul6.jpg" width="1200px">
 </div>
 
 <div class="contenedor-service-Planificacion">
@@ -222,7 +262,7 @@ día como siempre lo quisiste.</strong></p>
 <li>Show de robots</li>
 </ul>
 
-  <img src="Assets/Img/Parrila+tragos.png" width="1200px" alt="">
+  <img id="Parrilla_Tragos" src="Assets/Img/Parrila+tragos.png" width="1200px" alt="">
 
 </div>
 <div class="contenedor-service-ambientacion">
@@ -250,7 +290,7 @@ decoración.</strong></p>
 <li>Sectores tematícos</li>
 </ul>
 
-  <img src="Assets/Img/Salon_azul.jpg" width="1200px" alt="">
+  <img id="Salon2" src="Assets/Img/Salon_azul.jpg" width="1200px" alt="">
 </div>
 
   <title>Menú de Catering</title>
@@ -334,7 +374,7 @@ decoración.</strong></p>
         <li><a href="Servicios_2banderas.html">Servicios</a></li>
         <li><a href="2banderas_Salon.html">Salon</a></li>
         <li><a href="Contacto_2banderas.html">Contacto</a></li>
-        <li><a href="#">Cotizador de Eventos</a></li>
+       <!-- <li><a href="#">Cotizador de Eventos</a></li>--> 
       </ul>
     </div>
 
@@ -343,7 +383,7 @@ decoración.</strong></p>
       <p> El Arreo 2141<br>
         B1746 Francisco Alvarez. <br>
       Provincia de Buenos Aires.</p>
-       <a href="https://wa.me/5491150259972" target="_blank"><p><img src="Assets/Icons/whatsapp_Transparente.png" width="20px" style="box-shadow: 0 0 10px white;"> +54 9 11 2638-6864</p></a>
+       <a href="https://wa.me/5491126386864" target="_blank"><p><img src="Assets/Icons/whatsapp_Transparente.png" width="20px" style="box-shadow: 0 0 10px white;"> +54 9 11 2638-6864</p></a>
       <a href="https://wa.me/5491150259972" target="_blank"> <p> <img src="Assets/Icons/whatsapp_Transparente.png" width="20px" style="box-shadow: 0 0 10px white;">+54 9 11 5025-9972 </p></a>
       <p>✉️ dosbanderaseventos@gmail.com</p>    
     <!--<p>✉️ eventos@2Banderas.com.ar</p>--> 
@@ -352,9 +392,9 @@ decoración.</strong></p>
     <div class="footer-section social">
       <h3>Seguinos en nuestras redes</h3>
       <div class="social-icons">
-        <a href="https://www.facebook.com/quintalasdosbanderas/"><img src="Assets/Icons/logo_fb.avif" alt="Facebook"></a>
-        <a href="https://www.instagram.com/lasdosbanderas_eventos?utm_source=qr&igsh=eHkzZnUzbWlkeDZm"><img src="Assets/Icons/logo_ig.avif" alt="Instagram"></a>
-        <a href="https://www.tiktok.com/@quintalasdosbandera?_t=ZM-8w5ULuH1KVT&_r=1"><img src="Assets/Icons/logo_tiktok.avif" alt="TikTok"></a>
+        <a href="https://www.facebook.com/quintalasdosbanderas/"><img src="Assets/Icons/logo_fb.avif" alt="Facebook" width="23px"></a>
+        <a href="https://www.instagram.com/lasdosbanderas_eventos?utm_source=qr&igsh=eHkzZnUzbWlkeDZm"><img src="Assets/Icons/logo_ig.avif" alt="Instagram" width="23px"></a>
+        <a href="https://www.tiktok.com/@quintalasdosbandera?_t=ZM-8w5ULuH1KVT&_r=1"><img src="Assets/Icons/logo_tiktok.avif" alt="TikTok" width="23px"></a>
       </div>
     </div>
   </div>
