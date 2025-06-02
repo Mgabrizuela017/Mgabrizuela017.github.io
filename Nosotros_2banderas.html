@@ -67,6 +67,67 @@ font-size: 2.5rem;
     background-color: black;
     height: 650px;
 }
+
+@media screen and (max-width: 768px) {
+  .fila-cartas_salon {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .columna_salon {
+    max-width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .contenedor-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  nav ul.Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav ul.Menu li {
+    margin: 10px 0;
+  }
+
+  .whatsapp-container {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
 </style>
 </head>
 <body>

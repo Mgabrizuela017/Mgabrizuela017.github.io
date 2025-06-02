@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="Css.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
 
 <style>
 
@@ -84,9 +87,91 @@ font-size: 2.rem;
       margin-top: 20px;
 }
 
-.seccion-servicios img{
-    margin-bottom: 25px;
+
+.carrusel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
 }
+
+.contenedor-img-comida {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.contenedor-img-comida img {
+  flex: 0 0 auto;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .columna_salon {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .fila-cartas_salon {
+    padding: 0 10px;
+    font-size: 1.2rem;
+  }
+
+  .contenedor-img-comida {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 8px;
+  }
+
+  .contenedor-img-comida img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .whatsapp-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 5px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav img {
+    width: 50px;
+    height: 50px;
+  }
+
+  table, th, td {
+    font-size: 0.9rem;
+    padding: 6px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 
 
   
@@ -125,6 +210,8 @@ font-size: 2.rem;
 
         
   </script>
+
+
 </head>
 <body>
   
@@ -346,15 +433,21 @@ decoración.</strong></p>
       </td>
     </tr>
   </table>
-    <div class="contenedor-img-comida">
-    <img src="Assets/Img/AsadoI.png"  width="300px">
-    <img src="Assets/Img/asado2.png"  width="300px" alt="">
-    <img src="Assets/Img/asado3.png"  width="300px"  alt="">
-    <img src="Assets/Img/Picada.png"  width="300px" alt="">
-    <img src="Assets/Img/PicadaII.PNG"  width="300px" alt="">
-    <img src="Assets/Img/PICADAIII.PNG"  width="300px" alt="">
-    </div>
-    </div>
+    <div class="carrusel-container">
+ 
+  
+  <div class="contenedor-img-comida">
+    <img src="Assets/Img/AsadoI.png" width="300px">
+    <img src="Assets/Img/asado2.png" width="300px" alt="">
+    <img src="Assets/Img/asado3.png" width="300px" alt="">
+    <img src="Assets/Img/Picada.png" width="300px" alt="">
+    <img src="Assets/Img/PicadaII.PNG" width="300px" alt="">
+    <img src="Assets/Img/PICADAIII.PNG" width="300px" alt="">
+  </div>
+  
+
+</div>
+
  </div>
 </section>
 
