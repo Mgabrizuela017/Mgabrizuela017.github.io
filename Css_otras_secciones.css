@@ -1,0 +1,547 @@
+html{
+    margin: auto 0;
+}
+.columna_salon p{
+  font-size: 1.5rem;
+  color: #555;
+  line-height: 1.5;
+  position: relative;
+
+}
+.columna_salon li{
+  font-weight: bold;
+}
+.seccion-cartas_salon {
+  background: #f8f8f8; /* Color suave como en la captura */
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fila-cartas_salon {
+
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.columna_salon {
+  flex: 1;
+  max-width: 1300px;
+  
+}
+.contenedor-img{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.columna_salon{
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.5;
+}
+
+h1{
+font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.video{
+    margin: auto;
+    width: max-content;
+    background-color: black;
+    height: 650px;
+}
+
+@media screen and (max-width: 768px) {
+  .fila-cartas_salon {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .columna_salon {
+    max-width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .contenedor-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  nav ul.Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav ul.Menu li {
+    margin: 10px 0;
+  }
+
+  .whatsapp-container {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+  }
+}
+/*-------------------*//*-------------------*//*-------------------*/
+
+.columna_salon p{
+  font-size: 1.5rem;
+  color: #555;
+  line-height: 1.5;
+}
+.columna_salon li{
+  font-weight: bold;
+}
+.seccion-cartas_salon {
+  background: #f8f8f8; /* Color suave como en la captura */
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fila-cartas_salon {
+  display: block;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.columna_salon {
+  flex: 1;
+  max-width: 1300px;
+  
+}
+
+.columna_salon{
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.5;
+}
+
+h1{
+font-size: 2.rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/*----------*//*----------*//*----------*/
+/* Corrección de la sección del salón */
+.seccion-cartas_salon {
+  background: #f8f8f8;
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.fila-cartas_salon {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.columna_salon {
+  font-size: 1.3rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Encabezado */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* --- Galería --- */
+.galeria-salon {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.galeria-salon h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+/* Grid arreglado */
+.grid-galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto 80px auto;
+  justify-items: center;
+}
+
+.grid-galeria img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.grid-galeria img:hover {
+  transform: scale(2.05);
+}
+/*-------------------*//*-------------------*//*-------------------*/
+
+.columna_salon p{
+  font-size: 1.5rem;
+  color: #555;
+  line-height: 1.5;
+}
+.columna_salon li{
+  font-weight: bold;
+}
+.seccion-cartas_salon {
+  background: #f8f8f8; /* Color suave como en la captura */
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fila-cartas_salon {
+  display: block;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.columna_salon {
+  flex: 1;
+  max-width: 1300px;
+  
+}
+
+.columna_salon{
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.5;
+}
+
+h1{
+font-size: 2.rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.seccion-servicios{
+    background-color: #f8f8f8;
+    padding: 60px 20px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    justify-content: center;
+}
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      vertical-align: top;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+  .contenedor-img-comida{
+      margin-top: 20px;
+}
+
+
+.carrusel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor-img-comida {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.contenedor-img-comida img {
+  flex: 0 0 auto;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .columna_salon {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .fila-cartas_salon {
+    padding: 0 10px;
+    font-size: 1.2rem;
+  }
+
+  .contenedor-img-comida {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 8px;
+  }
+
+  .contenedor-img-comida img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .whatsapp-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 5px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav img {
+    width: 50px;
+    height: 50px;
+  }
+
+  table, th, td {
+    font-size: 0.9rem;
+    padding: 6px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/*-------------------*//*-------------------*//*-------------------*/
+
+
+ .columna_salon p{
+  font-size: 1.5rem;
+  color: #000000;
+  line-height: 1.5;
+}
+.columna_salon li{
+  font-weight: bold;
+}
+.seccion-cartas_salon {
+  background: #f8f8f8; /* Color suave como en la captura */
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fila-cartas_salon {
+  display: block;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.columna_salon {
+  flex: 1;
+  max-width: 1300px;
+  
+}
+
+.columna_salon{
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+h1{
+font-size: 2rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+    .container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: auto 0;
+    width: 100%;
+    }
+
+    .info, .formulario {
+      background-color: #f9f9f9;
+      padding: 20px;
+      box-shadow: 0 0 10px #ccc;
+      width: 100%;
+    }
+    .formulario input, .formulario select, .formulario textarea {
+      width: 90%;
+      padding: 8px;
+      margin-bottom: 15px;
+        background-color: rgba(206, 106, 252, 0.653);
+    }
+    .formulario label {
+      font-weight: bold;
+    }
+.formulario button {
+  background: linear-gradient(135deg, #1a1a1a, #333333);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario button:hover {
+  background: linear-gradient(135deg, #000000, #444444);
+  color: #ff0000;
+  transform: scale(1.03);
+}
+
+
+@media (max-width: 768px) {
+  nav ul.Menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info, .formulario {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .formulario input,
+  .formulario select,
+  .formulario textarea {
+    width: 100%;
+  }
+
+  .fila-cartas_salon {
+    padding: 20px 10px;
+    font-size: 1.2rem;
+  }
+
+  h1.Titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+
+  .whatsapp-container {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1000;
+  }
+
+  iframe#map {
+    width: 100% !important;
+    height: 200px !important;
+  }
+
+  .Menu li {
+    margin: 5px 0;
+  }
+}
+
+#Consultas form{
+  display: none;
+}
+#Consultas h2:hover{
+  color: mediumorchid;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+#Consultas .icono {
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
